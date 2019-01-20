@@ -1,3 +1,3 @@
 # kobohiraku
 
-kobohirakuについて
+kobohiraku WEBｻｲﾄ作成について
