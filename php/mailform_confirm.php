@@ -83,9 +83,9 @@
            $errmsg = $errmsg.'<p class="input2">【内容】・入力は必須です。</p>';
            }
 
-   /*******************************
-    入力内容の確認
-   *******************************/
+           /*******************************
+            入力内容の確認
+           *******************************/
 
            if ($errmsg != '') {
                //エラーメッセージが空ではない場合には、エラーメッセージを表示する
@@ -98,7 +98,7 @@
            echo '<input type="hidden" name="content" value="'.$content.'">';
            echo '<input class="input" type="submit" name="backbtn" value="前のページへ戻る">';
            echo '</form>';
-     } else {
+           } else {
            echo '<dl>';
            echo '<dt>【件名】</dt><dd>'.$subject.'</dd>';
            echo '<dt>【お名前】</dt><dd>'.$name.'</dd>';
@@ -113,8 +113,8 @@
            echo '<input type="hidden" name="content" value="'.$content.'">';
            echo '<input type="submit" name="okbtn" value="上記内容で送信する">';
            echo '</form>';
-  }
-  ?>
+           }
+           ?>
 
         </div>
       </div>
